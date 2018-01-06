@@ -63,5 +63,10 @@ public class MainActivity extends AppCompatActivity {
         mScoreTeamBTextView.setText(String.valueOf(score));
     }
 
-
+    public void resetScores(View view) {
+        mScoreTeamA = 0;
+        mScoreTeamB = 0;
+        mScoreTeamATextView.setText(String.valueOf(mScoreTeamA));
+        mScoreTeamBTextView.setText(String.valueOf(mScoreTeamB));
+    }
 }

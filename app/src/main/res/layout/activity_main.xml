@@ -40,6 +40,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="@dimen/medium_margin"
                 android:background="@color/colorPrimary"
+                android:onClick="addOneToTeamA"
                 android:text="@string/team_a_one_point"
                 android:textColor="@android:color/white"/>
 
@@ -51,6 +52,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="@dimen/medium_margin"
                 android:background="@color/colorPrimary"
+                android:onClick="addTwoToTeamA"
                 android:text="@string/team_a_two_points"
                 android:textColor="@android:color/white"/>
 
@@ -61,6 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:background="@color/colorPrimary"
+                android:onClick="addThreeToTeamA"
                 android:text="@string/team_a_three_points"
                 android:textColor="@android:color/white"/>
         </LinearLayout>
@@ -93,6 +96,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="@dimen/medium_margin"
                 android:background="@color/colorPrimary"
+                android:onClick="addOneToTeamB"
                 android:text="@string/team_b_one_point"
                 android:textColor="@android:color/white"/>
 
@@ -104,6 +108,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="@dimen/medium_margin"
                 android:background="@color/colorPrimary"
+                android:onClick="addTwoToTeamB"
                 android:text="@string/team_b_two_points"
                 android:textColor="@android:color/white"/>
 
@@ -114,6 +119,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:background="@color/colorPrimary"
+                android:onClick="addThreeToTeamB"
                 android:text="@string/team_b_three_points"
                 android:textColor="@android:color/white"/>
         </LinearLayout>
